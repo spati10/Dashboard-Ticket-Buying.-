@@ -1,0 +1,24 @@
+services:
+  - type: web
+    name: helpdesk-frontend
+    env: node
+    repo: https://github.com/your-username/your-repo-name
+    branch: main
+    buildCommand: cd frontend && npm install && npm run build
+    staticPublishPath: frontend/build
+    envVars:
+      - key: NODE_VERSION
+        value: 18
+
+  - type: web
+    name: helpdesk-backend
+    env: python
+    repo: https://github.com/your-username/your-repo-name
+    branch: main
+    buildCommand: cd backend && pip install -r requirements.txt
+    startCommand: python backend/app.py
+    envVars:
+      - key: FLASK_ENV
+        value: production
+      - key: PORT
+        value: 10000  # or leave this unset if Render assigns port automatically
