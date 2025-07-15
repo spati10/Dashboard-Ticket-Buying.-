@@ -30,7 +30,7 @@ This is a web-based Helpdesk Dashboard for managing support tickets within an or
 │ └── index.css
 └── public/
 
-🌐 Deploymnt:
+🌐 Deploymnt:https://dashboard-ticket-buying.onrender.com
 
 
 📧 Contact
