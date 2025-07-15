@@ -1,16 +1,38 @@
-<<<<<<< HEAD
-# React + Vite
+# 🧑‍💻 Helpdesk Dashboard & Ticket Management System
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a web-based Helpdesk Dashboard for managing support tickets within an organization. It features authentication, ticket submission, approval, user roles, and analytics.
 
-Currently, two official plugins are available:
+## 🚀 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- ✅ Login / Signup with password reset
+- 📊 Dashboard showing ticket stats (Total, Solved, In Progress, etc.)
+- 📝 Submit new support tickets
+- 📁 View and track My Tickets
+- 🧑 Admins can approve/reject tickets
+- 📈 Performance page for operational analytics
+- 🛠️ Settings and User Profile
+- 🗂️ Database and User Log History
 
-## Expanding the ESLint configuration
+## 🖼️ Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-=======
-# Dashboard-Ticket-Buying.-
->>>>>>> 37a84d25e9caeedf831c56f91a156b43913d7b6e
+- **Frontend:** React (Vite or CRA)
+- **Styling:** CSS / Tailwind (as per usage)
+- **Backend:** Node.js / Express / Python Flask (if applicable)
+- **Database:** MongoDB / MySQL / Firebase (depending on your implementation)
+
+## 📂 Folder Structure
+
+/frontend
+├── src/
+│ ├── pages/
+│ ├── components/
+│ ├── App.jsx
+│ └── index.css
+└── public/
+
+🌐 Deploymnt:
+
+
+📧 Contact
+For queries or contributions, feel free to connect:
+GitHub: @spati10
