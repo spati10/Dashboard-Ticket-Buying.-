@@ -16,9 +16,9 @@ This is a web-based Helpdesk Dashboard for managing support tickets within an or
 ## 🖼️ Tech Stack
 
 - **Frontend:** React (Vite or CRA)
-- **Styling:** CSS / Tailwind (as per usage)
-- **Backend:** Node.js / Express / Python Flask (if applicable)
-- **Database:** MongoDB / MySQL / Firebase (depending on your implementation)
+- **Styling:** CSS.
+- **Backend:** Node.js.
+
 
 ## 📂 Folder Structure
 
